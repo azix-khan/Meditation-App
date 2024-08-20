@@ -18,7 +18,7 @@ class Home extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Image.asset("assets/images/meditation.png"),
+              Image.asset("assets/images/meditation1.png"),
               const Text(
                 "Time to meditate",
                 style: kLargeTextStyle,

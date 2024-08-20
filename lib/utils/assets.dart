@@ -1,6 +1,6 @@
 const kMeditateTitle = 'Meditate';
 const kMeditateSubtitle = 'Breath';
-const kMeditateImageSource = 'meditation.png';
+const kMeditateImageSource = 'meditation1.png';
 const kMeditateMusicSource = 'meditation.mp3';
 
 const kRelaxTitle = 'Relax';

@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 
+// ignore: non_constant_identifier_names
 ThemeData CustomTheme() => ThemeData.light(useMaterial3: true).copyWith(
       scaffoldBackgroundColor: Colors.grey[300],
       elevatedButtonTheme: const ElevatedButtonThemeData(
         style: ButtonStyle(
-          backgroundColor: MaterialStatePropertyAll(
+          backgroundColor: WidgetStatePropertyAll(
             Colors.white,
           ),
-          padding: MaterialStatePropertyAll(
+          padding: WidgetStatePropertyAll(
             EdgeInsets.all(20),
           ),
-          elevation: MaterialStatePropertyAll(0),
+          elevation: WidgetStatePropertyAll(0),
         ),
       ),
     );

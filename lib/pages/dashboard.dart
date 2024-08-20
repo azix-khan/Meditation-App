@@ -20,14 +20,14 @@ class Dashboard extends StatelessWidget {
                 children: [
                   GestureDetector(
                     child: const Icon(
-                      Icons.arrow_back,
+                      Icons.arrow_back_ios,
                       size: 30,
                       color: Colors.deepPurple,
                     ),
                     onTap: () => Navigator.pop(context),
                   ),
                   const Text(
-                    "Hey Sweetie!",
+                    "Hey there!",
                     style: kLargeTextStyle,
                   ),
                 ],

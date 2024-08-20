@@ -121,6 +121,7 @@ class _SongBoardState extends State<SongBoard> {
                 RectangleButton(
                   onPressed: () async {
                     await player.stop();
+                    // ignore: use_build_context_synchronously
                     Navigator.pop(context);
                   },
                   child: const Text(
